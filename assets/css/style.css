@@ -61,7 +61,6 @@
   padding: 10px;
 }
 .checkbox {
-  border: rgb(150, 151, 151);
   background-color: rgb(150, 151, 151);
   accent-color: green;
 }
@@ -78,7 +77,8 @@
 .btn-submit:hover {
   background-color: #ffffff;
   color: rgb(5, 131, 32);
-  border: 2px solid rgb(5, 131, 32);
+  border: 1px solid rgb(150, 151, 151);
+  transition: 0.9s;
 }
 .link {
   text-decoration: none;
