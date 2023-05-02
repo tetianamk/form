@@ -17,18 +17,20 @@
     <p class="title-text">Create your account.It is a free i only takes a minute</p>
     <form class="form-register">
     <div class="cover-name">
-        <input class="first-name-user" type="text" name="first-name" placeholder="First Name" required >
-        <input class="last-name-user" type="text" name="last-name" placeholder="Last Name"> 
+        <input class="input" type="text" name="first-name" placeholder="First Name" required >
+        <input class="input" type="text" name="last-name" placeholder="Last Name"> 
     </div> 
-      <input class="email" type="email" name="email" placeholder="Email"  id="email" pattern="^[a-zA-Z0-9]{2,32}@[a-z]{3,32}\.[a-z]{2,5}$" required>
-      <input class="password" pattern="^[A-Za-z0-9]{8,16}$" type="password" name="password" placeholder="Password" required >
-      <input class="password" pattern="^[A-Za-z0-9]{8,16}$" type="password" name="confirm-password" placeholder="Confirm Password" required >
-      <label for="accept">
+      <input class="input" type="email" name="email" placeholder="Email"  id="email" pattern="^[a-zA-Z0-9]{2,32}@[a-z]{3,32}\.[a-z]{2,5}$" required>
+      <input class="input" pattern="^[A-Za-z0-9]{8,16}$" type="password" name="password" placeholder="Password" required >
+      <input class="input" pattern="^[A-Za-z0-9]{8,16}$" type="password" name="confirm-password" placeholder="Confirm Password" required >
+      <label class="checkbox-label" for="accept">
         <input id="accept" class="checkbox" name="checkbox" type="checkbox" required >
+      <span>
         I accept the 
         <a class="link" href="#">Terms of Use</a>
         and 
         <a class="link" href="#">Privacy Policy</a>
+      </span> 
       </label>
       <button class="btn-submit" type="submit" >Register Now</button>
     </form>
